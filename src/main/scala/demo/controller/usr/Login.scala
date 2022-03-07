@@ -8,11 +8,7 @@ object Login {
         post {
             path("usr" / "login") {
                 formField("usr", "pwd") { (usr, pwd) =>
-                    val userIDOpt = usr.toLongOption
-                    if (userIDOpt.isEmpty) {
-                        return ErrorResponse(400, "A001", Map("error" -> "IllegalParams"))
-                    }
-                    val userID = userIDOpt.get
+
                 }
             }
         }
