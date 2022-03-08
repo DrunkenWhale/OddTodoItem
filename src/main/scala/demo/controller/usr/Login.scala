@@ -7,7 +7,7 @@ object Login {
     def controller(): Unit = {
         post {
             path("usr" / "login") {
-                formField("usr", "pwd") { (usr, pwd) =>
+                formFields("usr", "pwd") { (usr, pwd) =>
 
                 }
             }
