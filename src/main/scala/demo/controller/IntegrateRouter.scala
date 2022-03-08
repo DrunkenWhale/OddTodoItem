@@ -1,13 +1,24 @@
 package demo.controller
 
-import akka.http.scaladsl.model.{ContentTypes, HttpEntity}
-import akka.http.scaladsl.server.Directives.{complete, get, path}
+import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.server.Route
+import demo.controller.usr.{Login, SignIn}
 
 object IntegrateRouter {
 
-    val router = path("hello") {
-        get {
-            complete(HttpEntity(ContentTypes.`application/json`, "<h1>Say hello to akka-http</h1>"))
+  val router: Route = pathPrefix("api") {
+    concat(
+      pathPrefix("usr") {
+        concat(
+          SignIn.controller(),
+          Login.controller()
+        ),
+        pathPrefix("todo"){
+          concat(
+
+          )
         }
-    }
+      }
+    )
+  }
 }

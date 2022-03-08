@@ -12,6 +12,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: cglib:cglib-nodep:3.3.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.auth0:java-jwt:3.18.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.12.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.12.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.12.6:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-actor-typed_2.13:2.6.18:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-actor_2.13:2.6.18:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-http-core_2.13:10.2.9:jar" level="project" />
