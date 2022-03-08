@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OddDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/OddDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OddDemo-build.iml" filepath="$PROJECT_DIR$/.idea/modules/OddDemo-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OddTodoDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/OddTodoDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OddTodoDemo-build.iml" filepath="$PROJECT_DIR$/.idea/modules/OddTodoDemo-build.iml" />
     </modules>
   </component>
 </project>
