@@ -29,7 +29,7 @@ object DataBase extends Schema {
       new MySQLAdapter
     ))
     transaction {
-      DataBase.create
+//      DataBase.create  // throw Exception about table already exist
     }
   }
 
