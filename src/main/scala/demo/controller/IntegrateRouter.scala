@@ -6,18 +6,22 @@ import demo.controller.usr.{Login, SignIn}
 
 object IntegrateRouter {
 
-  val router: Route = pathPrefix("api") {
+  def register(): Route ={
+    router
+  }
+
+  private val router: Route = pathPrefix("api") {
     concat(
       pathPrefix("usr") {
         concat(
           SignIn.controller(),
           Login.controller()
-        ),
-        pathPrefix("todo"){
-          concat(
+        )
+      },
+      pathPrefix("todo") {
+        concat(
 
-          )
-        }
+        )
       }
     )
   }
